@@ -267,6 +267,11 @@ services-box p {
           width: 400px;
       }
 
+      .container nav a {
+          display: flex;
+          justify-content: center;
+      }
+
       header nav {
           display: flex;
           flex-direction: column;
@@ -277,8 +282,8 @@ services-box p {
           text-align: center;
           width: 500px;
           margin-bottom: 20px;
-          padding-bottom: 30px;
-          margin-left: 60px;
+          padding-bottom: 25px;
+          margin-left: 65px;
           color: white;
           background-color: black;
       }
