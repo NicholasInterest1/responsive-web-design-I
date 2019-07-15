@@ -52,6 +52,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -265,10 +266,10 @@ services-box p {
           padding-top: 17px;
       }
 
-      .top-content {
+      .main-content {
           display: flex;
           flex-direction: column;
-          align-items: center;
+          align-items: flex-start;
       }
 
       .text-content {
