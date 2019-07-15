@@ -212,7 +212,7 @@ services-box p {
     }
 
     body {
-      background-color: burlywood;
+      background-color: darkslateblue;
     }
     header {
         display: flex;
@@ -234,8 +234,28 @@ services-box p {
         }
 
         .cta-text button {
-            background-color: burlywood;
+            background-color: red;
+            color: white;
           }
+
+          .text-content {
+            background-color: red;
+            color: white;
+        }
+
+        .contact {
+            background-color: red;
+            color: white;
+        }
+
+        header nav a {
+            background-color: red;
+            color: white;
+        }
+
+        footer p {
+            color: white;
+        }
     }
 
   @media screen and (max-width: 500px) {
@@ -258,12 +278,15 @@ services-box p {
           width: 500px;
           margin-bottom: 20px;
           padding-bottom: 30px;
-          margin-left: 60px  
+          margin-left: 60px;
+          color: white;
+          background-color: black;
       }
 
       header nav a:nth-child(1) {
           border-top: 1px solid black;
           padding-top: 17px;
+          
       }
 
       .main-content {
@@ -274,6 +297,8 @@ services-box p {
 
       .text-content {
           margin-bottom: 30px;
+          background-color: black;
+          color: white;
       }
 
       .middle-img {
@@ -290,7 +315,12 @@ services-box p {
       }
 
       .cta-text button {
-        background-color: darkorchid;
+        background-color: black;
+        color: white;
       }
 
+      .contact {
+          background-color: black;
+          color: white;
+      }
 }
