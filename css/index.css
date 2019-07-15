@@ -55,7 +55,7 @@ table {
 }
 
 body {
-    background-color: dodgerblue;
+    background-color: rgb(251, 255, 30);
 }
 
 html, body {
@@ -129,10 +129,8 @@ padding-bottom: 40px;
 }
 
 .bottom-content .text-content: nth-child(2) {
-	padding: 0 10px;
-	margin: 
+    padding: 0 10px;
 }
-
 .contact {
 	margin-top: 50px;
 }
@@ -293,4 +291,5 @@ services-box p {
       .cta-text button {
         background-color: darkorchid;
       }
+
 }
